@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Bom数据信息维护</title>
+<title>BOM数据信息维护</title>
 
 <link rel="stylesheet" type="text/css"
 	href="/Windchill/netmarkets/css/ext/fawsnlear/common.css" >
