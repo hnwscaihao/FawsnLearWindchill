@@ -8,17 +8,27 @@
 		<action name="separator" type="separator" />
 		<submodel name="folderbrowser_toolbar_new_submenu" />
 		<action name="separator" type="separator" />
-		<action name="list_cut" type="object" />                                                 <!-- Cut -->
-		<action name="list_copy" type="object" shortcut="true" />                                 <!-- Copy -->
-		<action name="pasteAsCopy" type="saveas" />                                                 <!-- Paste (for Product/Library/Org/Site) -->
-		<action name="fbpaste" type="object" />                                                 <!-- Paste -->
-		<action name="CONTAINERMOVE" type="pdmObject" />                                              <!-- Move -->
+		<action name="list_cut" type="object" />                                  
+		               <!-- Cut -->
+		<action name="list_copy" type="object" shortcut="true" />                 
+		              <!-- Copy -->
+		<action name="pasteAsCopy" type="saveas" />                                   
+		              <!-- Paste (for Product/Library/Org/Site) -->
+		<action name="fbpaste" type="object" />                                          
+		       <!-- Paste -->
+		<action name="CONTAINERMOVE" type="pdmObject" />                                      
+		        <!-- Move -->
 		<action name="separator" type="separator" />
-		<action name="multiObjectCheckIn" type="wip" />                                                    <!-- multiObjectCheckIn -->
-		<action name="multiObjectCheckOut" type="wip" />                                                    <!-- multiObjectCheckOut -->
-		<action name="PAGERELOADINGMULTICHECKOUT" type="folder" />                                                 <!-- Check out to Workspace -->
-		<action name="multiObjectUndoCheckout" type="wip" />                                                    <!-- multiObjectUndoCheckout -->
-		<action name="editMultiObjects" type="object" />                                                 <!-- Edit Multiple Objects -->
+		<action name="multiObjectCheckIn" type="wip" />                              
+		               <!-- multiObjectCheckIn -->
+		<action name="multiObjectCheckOut" type="wip" />                      
+		               <!-- multiObjectCheckOut -->
+		<action name="PAGERELOADINGMULTICHECKOUT" type="folder" />                           
+		             <!-- Check out to Workspace -->
+		<action name="multiObjectUndoCheckout" type="wip" />                                
+				<!-- multiObjectUndoCheckout -->
+		<action name="editMultiObjects" type="object" />                                  
+		               <!-- Edit Multiple Objects -->
 		<action name="MULTIREVISEITEMS_FROMFOLDERS" type="pdmObject" />                                              <!-- Revise -->
 		<action name="route" type="workflow" />                                               <!-- Route -->
 		<action name="separator" type="separator" />
@@ -54,12 +64,9 @@
 		<action name="MULTIEDITSECURITYLABELS" type="object" />                                                                   <!-- Manage Security -->
 		<action name="createSubscription" type="subscription" />                                           <!-- Subscribe -->
 		<action name="separator" type="separator" />
-		<action name="track_new_work_table" type="resourceAssignment" /><!-- 
-			Track new Work against subject of deliverable -->
-		<action name="new_plan_activity_table" type="planActivity" /><!-- 
-			New Plan Activity against subject -->
-		<action name="BOMImportManage" type="BOMImportResource"
-			shortcut="true" />
+		<action name="track_new_work_table" type="resourceAssignment" /><!-- Track new Work against subject of deliverable -->
+		<action name="new_plan_activity_table" type="planActivity" /><!-- New Plan Activity against subject -->
+		<action name="BOMImportManage" type="BOMImportResource"/>
 		<includeFilter name="ActionFilterOnProject2State" />
 	</model>
 </actionmodels>

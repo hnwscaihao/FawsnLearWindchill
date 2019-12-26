@@ -1,0 +1,140 @@
+.rightMargin {
+	margin-right: 5px;
+}
+
+.selectWindchill {
+	padding: 0px 0px 0px 0px;
+	margin-bottom: 5px;
+	border-radius: 2px;
+	border: 1px #aaa solid;
+	height: 20px;
+}
+
+.selectWindchill:focus {
+	background-color: #FFEEDD;
+	border: 1px #898989 dashed;
+}
+
+.selectWindchill:hover {
+	background-color: #FFEEDD;
+	border: 1px #898989 dashed;
+}
+
+.searchArea {
+	width: 300px;
+	min-height: 135px;
+	float: left;
+	margin: 10px;
+}
+
+.inputWindchill {
+	border-radius: 2px;
+	margin-bottom: 5px;
+	border: 0.5px #aaa solid;
+	padding: 2px 5px 0px 5px;
+	height: 20px;
+}
+
+.inputWindchill:focus {
+	background-color: #FFEEDD;
+	border: 1px #898989 dashed;
+}
+
+.inputWindchill:hover {
+	background-color: #FFEEDD;
+	border: 1px #898989 dashed;
+}
+
+.searchArea {
+	width: 300px;
+	min-height: 120px;
+}
+
+.searchColumn {
+	padding: 0px 5px 0px 5px;
+	margin-right: 5px;
+	display: -ms-flexbox;
+}
+
+.collapse.in {
+	display: flex;
+}
+
+/* .moreHeader>thead>tr:first-child {
+	font-size: 18px;
+	background-color: #eaf2ff;
+} */
+
+.table2excel>thead>tr>th {
+	vertical-align: middle;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.table2excel>tbody>tr>td {
+	vertical-align: middle;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.urlPointer {
+	cursor: pointer;
+}
+
+.checkboxChecked {
+	background-color: #e0fff4;
+}
+
+.inputDisplayText {
+	border: 0px;
+	background-color: #ffffff;
+	float: left;
+	width: 99%;
+	border-radius: 4px;
+	min-width: 60px;
+	border: 1px #cccccc solid;
+}
+
+.inputDisplayText:hover {
+	border: 1px #cccccc solid;
+	background-color: transparent;
+}
+
+.inputText {
+	border: 1px #cccccc solid;
+	background-color: transparent;
+}
+
+.windowBg {
+	-webkit-box-shadow: 1px 1px 4px 0px;
+	-moz-box-shadow: 1px 1px 4px 0px;
+	box-shadow: 1px 1px 4px 0px;
+	border-color: #ccc;
+	display: inline-block;
+}
+
+.popupBtn {
+	margin-left: 20px;
+	height: 22px;
+	width: 78px;
+	font-size: 11px;
+	border-radius: 4px;
+	background-color: #fefefe;
+	/* text-shadow: 0 1px 0 rgba(0,0,0,0.4); */
+	border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.headTitle {
+	font-weight: bold;
+	font-size: 14px;
+	color: #636363;
+}
+
+.popupBtn:hover {
+	background-color: #FFD1A4;
+	border-color: #FFBB77;
+	box-shadow: 0 0 .05em rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: inset 1px 2px 2px -1px;
+	box-shadow: inset 1px 2px 2px -1px;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+}
