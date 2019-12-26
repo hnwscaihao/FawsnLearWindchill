@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!DOCTYPE listofactions SYSTEM 'actions.dtd'>
+<listofactions>
+	<objecttype name="BOMImportResource" class="" resourceBundle="ext.fawsnlear.resources.product.ProductBOMCustomActionRB">
+		<action name="BOMImportManage">
+			<command class="com.ptc.cat.ui.client.action.LaunchCustomURLAction"
+				url="ptc1/ext/fawsnlear/product/bomManagerInfo"
+				method="execute" windowType="popup" />
+		</action>
+	</objecttype>
+	
+	 <objecttype name="product" class="wt.pdmlink.PDMLinkProduct" resourceBundle="com.ptc.core.ui.navigationRB">
+        <action name="info" uicomponent="PROJECT_DETAILS">
+            <component name="wt.pdmlink.PDMLinkProduct.infoPage" windowType="page"/>
+        </action>
+        <action name="listFiles">
+        </action>
+
+        <action name="list">
+            <command class="" method="list" windowType="page"/>
+        </action>
+
+        <action name="listTeam" uicomponent="PROJECT_TEAM">
+            <command class="product" method="listTeam" windowType="page"/>
+        </action>
+
+        <action name="listTemplates" uicomponent="PROJECT_TEMPLATES">
+            <component name="netmarkets.product.listTemplates" windowType="page"/>
+        </action>
+
+        <action name="listUtilities">
+            <command class="product" method="listUtilities" windowType="page"/>
+        </action>
+
+        <action name="reports">
+            <component name="reporting.product.listReports" windowType="page" />
+        </action>
+
+        <action name="structureSubTab" uicomponent="PRODUCT_STRUCTURE">
+            <command windowType="page"/>
+        </action>
+    </objecttype>
+</listofactions>
