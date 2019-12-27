@@ -1,4 +1,4 @@
-package ext.fawsnlear.resources.product;
+package ext.shengxiang.resources.product;
 
 import wt.util.resource.RBEntry;
 import wt.util.resource.RBUUID;
@@ -10,16 +10,16 @@ import wt.util.resource.WTListResourceBundle;
  *
  */
 @RBUUID(value = "ext.goertekmpm.resource.ProductBOMCustomActionRB")
-public class ProductBOMCustomActionRB extends WTListResourceBundle{
+public class ProductBOMCustomActionRB_zh_CN extends WTListResourceBundle{
 
-	@RBEntry("BOMImportManage")
+	@RBEntry("BOM导入管理")
 	public static final String PRIVATE_CONSTANT_1 = "BOMImportResource.BOMImportManage.description";
 	
-	@RBEntry("fawsnlear/PartBom.png.png")
+	@RBEntry("fawsnlear/PartBom.png")
 	public static final String PRIVATE_CONSTANT_2 = "resourceOp.resourceOptimizationAction.icon";
-	@RBEntry("BOMImportManage")
+	@RBEntry("BOM导入管理")
 	public static final String PRIVATE_CONSTANT_3 = "resourceOp.resourceOptimizationAction.title";
-	@RBEntry("BOMImportManage")
+	@RBEntry("BOM导入管理")
 	public static final String PRIVATE_CONSTANT_4 = "resourceOp.resourceOptimizationAction.tooltip";
 	@RBEntry("height=680,width=1300") // 定义弹出框大小
 	public static final String PRIVATE_CONSTANT_5 = "resourceOp.resourceOptimizationAction.moreurlinfo";
